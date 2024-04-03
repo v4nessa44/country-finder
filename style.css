@@ -1,0 +1,67 @@
+*{
+    cursor: pointer;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.searchContainer{
+    padding: 20px;
+    display: flex;
+}
+
+.searchContainer input{
+    width: 250px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+   
+}
+
+.searchContainer button{
+    padding: 0px 20px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 1px solid gray;
+    background-color: rgb(222, 222, 240);
+}
+
+.searchContainer input:focus{
+   outline: none; 
+}
+
+.searchContainer button:hover{
+    background-color: rgb(153, 153, 190);
+}
+
+.card{
+    background-color: rgb(222, 222, 240);
+    padding: 40px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+}
+
+.card h2{
+    font-size: 30px ;
+}
+.card .row{
+    display: flex;
+    gap: 40px
+}
